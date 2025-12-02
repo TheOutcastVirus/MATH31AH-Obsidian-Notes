@@ -12,7 +12,7 @@ tags:
 - Examples of linearly independent vectors include any basis vectors, among others
 	- Non-examples are sets of vectors where multiple are co-linear
 > Example: Say we have some $Q = \{  \begin{bmatrix}1 \\ 0\end{bmatrix}, \begin{bmatrix} 0 \\ 1\end{bmatrix} \}$. Suppose that $r_{1}\begin{bmatrix}1 \\ 0 \end{bmatrix}+ r_{2}\begin{bmatrix}0  \\  1\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix}$. The only solution for this is $\begin{bmatrix}r_{1} \\ r_{2}\end{bmatrix} =  \begin{bmatrix} 0 \\ 0\end{bmatrix} \implies r_{1} =r_{2} = 0$. Thus, $Q$ is linearly independent. 
-- There is a special set of linearly independent vectors: $\{ \vec{e}_{1}, \vec{e}_{2},\dots \vec{e}_{n} \}$ 
+- There is a special set of linearly independent vectors: $\{ \vec{e}_{1}, \vec{e}_{2},\dots, \vec{e}_{n} \}$ 
 	- They are vectors where the $n$th element is 1 and the rest are zero. $\vec{e}_{1} = \begin{bmatrix}1 \\ 0 \\ \vdots  \\ 0\end{bmatrix}$
 > Remark: If $Q \subset \mathbb{R}^n$ is linearly independent, $\vec{0} \notin Q$
 - This makes sense because any real number times zero equals zero

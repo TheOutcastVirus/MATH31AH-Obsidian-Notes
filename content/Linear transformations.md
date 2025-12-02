@@ -30,7 +30,7 @@ tags:
 	- Suppose that $n < m$
 		- $(x_{1},x_{2} ,\dots,x_{n}) \to (y_{1},y_{2},\dots,y_{n}, y_{n+1},\dots y_{m})$
 	- Since the input and outputs have different dimensions, there is no identity map, so we want something similar
-	- We can define a transformation $(x_{1},x_{2},\dots x_{n}) \to (x_{1}, x_{2}, \dots, x_{n},0,\dots_{0})$
+	- We can define a transformation $(x_{1},x_{2},\dots, x_{n}) \to (x_{1}, x_{2}, \dots, x_{n},0,\dots,0)$
 		- This is called the *inclusion map*. 
 		- This just maps all the new dimensions as 0
 - Say that we have some transform $T: \mathbb{R}^n \to \mathbb{R}^m$, 

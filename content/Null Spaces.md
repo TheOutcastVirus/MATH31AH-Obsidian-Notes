@@ -25,7 +25,7 @@ tags:
 > Therefore, $\vec{u}-\vec{v}=0, \vec{u} = \vec{v}$
 > Hence, $T$ is one to one. 
 > Other side: Note, $\vec{0} \in \ker(T)$
-> Pick $\vec{v} \in \ket{(T)}$
+> Pick $\vec{v} \in \ker(T)$
 > Then, $T(\vec{v}) = \vec{0} = T(\vec{0})$
 > Since $T$ is one to one, $\vec{v} = 0$
 > $\ker(T) \subset \{ \vec{0} \}$
@@ -54,7 +54,7 @@ tags:
 
 
 > Proof of rank nullity: Note that $T(\mathbb{R}^n)$ is a linear subspace of the codomain $\mathbb{R}^m$. Thus, there exists $\{ w_{1},\dots,w_{l} \} \subset \mathbb{R}^n$ such that $\{ T(w_{1}),\dots,T(w_{l}) \}$, which is a basis of $T(\mathbb{R}^n)$.
-> Now, we shall show that $\{ w_{1},\dots,w_{l} \} \subset \mathbb{R}^n$ is [[Linear independence|linearly independent]]. Suppose $c_{1}w\vec{w}_{1}+\dots+c_{l}\vec{w}_{l} = \vec{0} \in R^n$. This implies that $T(c_{1}\vec{w}_{1}+\dots+c_{l}\vec{w}_{l}) = \vec{0} \in \mathbb{R}^n$. We can apply the linear property such that $c_{1}T(\vec{w}_{1})+\dots+c_{l}T(\vec{w}_{l}) = \vec{0} \in \mathbb{R}^n$. Therefore, $c_{1}=c_{2}=\dots=c_{l}=0 \in \mathbb{R}$
+> Now, we shall show that $\{ w_{1},\dots,w_{l} \} \subset \mathbb{R}^n$ is [[Linear independence|linearly independent]]. Suppose $c_{1}\vec{w}_{1}+\dots+c_{l}\vec{w}_{l} = \vec{0} \in R^n$. This implies that $T(c_{1}\vec{w}_{1}+\dots+c_{l}\vec{w}_{l}) = \vec{0} \in \mathbb{R}^n$. We can apply the linear property such that $c_{1}T(\vec{w}_{1})+\dots+c_{l}T(\vec{w}_{l}) = \vec{0} \in \mathbb{R}^n$. Therefore, $c_{1}=c_{2}=\dots=c_{l}=0 \in \mathbb{R}$
 > Since $\ker (T) \subset \mathbb{R}^n$ is a subspace, say, $\{ v_{1},\dots,v_{k} \} \subset \mathbb{R}^n$ is a basis of $\ker(T)$. 
 > Claim: $\{ v_{1},\dots,v_{k} \}  or \{ w_{1},\dots,w_{l} \}=B$ is a basis of $\mathbb{R}^n$. We know this because the union of two linearly independent sets is linearly independent from our homework. 
 > Pick $\vec{u} \in \mathbb{R}^n$. Either $T(\vec{u} = \vec{0}) \implies \vec{u} \in \ker(T) \implies \vec{u} \in L(B)$, or $T(\vec{u})(\neq \vec{0}) \in T(\mathbb{R}^n)$
@@ -64,7 +64,7 @@ tags:
 > Which implies that $T(\alpha_{1}\vec{w}+\dots+\alpha_{l}\vec{w}_{l} - \vec{u}) = \vec{0} \in \mathbb{R}^m$
 > $\alpha_{1}\vec{w}+\dots+\alpha_{l}\vec{w}_{l} - \vec{u} \in \ker (T)$
 > $\alpha_{1}\vec{w}+\dots+\alpha_{l}\vec{w}_{l} - \vec{u}  = \beta_{1}v_{1}+\dots+\beta_{2}v_{k}$
-> $\vec{u} = \alpha_{1}\vec{w}_{1}+\dots+\alpha_{l}\vec{w}_{l} - \beta_{1}\vec{v}_{1} -\dots-\beta_{k}v_{k} \in L(B)$ So, $B$ is a basis of $R^n$. P. 
+> $\vec{u} = \alpha_{1}\vec{w}_{1}+\dots+\alpha_{l}\vec{w}_{l} - \beta_{1}\vec{v}_{1} -\dots-\beta_{k}\vec{v}_{k} \in L(B)$ So, $B$ is a basis of $R^n$. P. 
 
 > Example: $T: \mathbb{R}^3 \to \mathbb{R}^2$ as $\begin{bmatrix}x \\ y \\ z\end{bmatrix}\mapsto \begin{bmatrix}x \\ y+z\end{bmatrix}$
 > $\ker T = \{ \begin{bmatrix}x \\ y \\ z\end{bmatrix} : \begin{bmatrix}x \\ y+z \end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \}$

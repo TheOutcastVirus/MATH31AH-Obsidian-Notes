@@ -19,7 +19,7 @@ tags:
 > Proposition: Say we have a [[Matrices|matrix]] $M \in M_{n}(\mathbb{R})$, where $M_{n}(\mathbb{R})$ is the set of all $n \times n$ matrices with real numbers (square matrices). If $M$ is non-singular, meaning that is square with a non-zero determinant ($\det(M) \neq 0$), the set column vectors and the set of row vectors of $M$ are a basis of $\mathbb{R}^n$. 
 
 > Theorem: Let $B$ be a basis of $\mathbb{R}^n$, $B =\{ \vec{v}_{1}, \dots, \vec{v}_{n} \}$. Then, any vector $\vec{w} \in \mathbb{R}^n$ can be uniquely (no other form) represented as $$
-\vec{w} = r_{1}\vec{v}_{1}+\dots r_{n}\vec{v}_{n}, r_{i} \in \mathbb{R}
+\vec{w} = r_{1}\vec{v}_{1}+\dots+ r_{n}\vec{v}_{n}, r_{i} \in \mathbb{R}
 $$
 - Basis are how we have vector representations in the first place
 	- We implicitly use the canonical basis when not specifying basis

@@ -12,7 +12,7 @@ tags:
 	- By being [[Countable & uncountable sets|uncountable]], they can be shown to have a bijection with $\mathbb{N}$
 - For this proof by inversion, we assume that$(0,1)$ is not uncountable. 
 - Assume that$(0,1)$ is not uncountable. So, $(0,1)$ must be countable then. Since $(0,1)$ is countable, consider an enumeration of $(0,1)$. 
-> Enumeration: Say you have some set $A = \{  \alpha, \dots \}$. To show that is is bijective to $\mathbb{N}$, you can list it in some infinite order $A=(a_{1}, a_{2, \dots})$, and $f(1)=a\to a_{1}$. This is called an enumeration.
+> Enumeration: Say you have some set $A = \{  \alpha, \dots \}$. To show that is is bijective to $\mathbb{N}$, you can list it in some infinite order $A=(a_{1}, a_{2},\dots)$, and $f(1)=a\to a_{1}$. This is called an enumeration.
 - Now consider the decimal expansion of the elements as follows, where $\alpha_{1j} \in \{ 0,\dots 9 \}$ 
 $$
 a_{1} = 0.\alpha_{11} \alpha_{12} \alpha_{13}\dots
