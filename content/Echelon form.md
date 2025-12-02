@@ -13,12 +13,13 @@ tags:
 > - the pivotal 1 of a lower row is always to the right of the pivot of a higher row
 > - every column that contains a pivotal 1 all other entries are zero. 
 > - any rows consisting entirely of zeros must be at the bottom
-> Example of a matrix in echelon form looks like this. The elements with an asterisk are called pivots. 
-> $$
+> Example of a matrix in echelon form looks like this. The elements with an asterisk are called pivots.
+> 
+$$
 \begin{bmatrix}
-1* & 1 & 0 & 0 & 0 \\
-0 & 0 & 1* & 2 & 0 \\
-0 & 0 & 0 & 0 & 1*
+1^* & 1 & 0 & 0 & 0 \\
+0 & 0 & 1^* & 2 & 0 \\
+0 & 0 & 0 & 0 & 1^*
 \end{bmatrix}
 $$
 

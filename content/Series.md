@@ -13,7 +13,8 @@ $$
 s_{N} = \sum_{n=1}^N a_{n}
 $$
 > **Definition 0.4.8 (Convergent series).** If the sequence of partial sums of a series has a limit $S$, we say that the series converges, and its limit is
-> $$
+> 
+$$
 \sum_{n=1}^{\infty} a_{n}=S
 $$
 - For a geometric series in the following form, the sum is equal to 

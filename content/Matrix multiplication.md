@@ -15,10 +15,12 @@ tags:
 	- Matrix multiplication is not commutative, nor is able to computed for every pair of matrices. $BA$ is not able to be computed.
 - If $A$ is a $m \times n$ matrix, and $B$ is a $n \times p$ matrix, then $AB$ is a $m \times p$ matrix.
 > **Definition: Matrix multiplication**. If $A$ is an $m \times n$ matrix whose $(i,j)$th entry is is $a_{i,j}$, and $B$ is an $n \times p$ matrix whose $(i,j)$th entry is $b_{i,j}$, then $C = AB$ is the $m \times p$ matrix with entries:
-> $$
+> 
+$$
 c_{i,j} = \sum^n_{k=1} a_{i,k} b_{k,j}
 $$
-> $$
+> 
+$$
 = a_{i,1} b_{1,j} + a_{i,2} b_{2,j} + \dots + a_{i,n} b_{n,j}
 $$
 ## Properties of matrix multiplication

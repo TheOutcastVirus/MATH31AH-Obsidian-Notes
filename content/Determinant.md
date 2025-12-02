@@ -12,7 +12,8 @@ tags:
   - MATH31AH
 ---
 > Definition: Determinant
-> $$
+> 
+$$
 \det \begin{bmatrix}
 a_{1} & a_{2} \\
 b_{1} & b_{2}
@@ -22,8 +23,9 @@ $$
 	- This expands to higher dimensions as well
 	- For the determinant of a 3 by 3 [[Matrices|matrix]], it would be the volume of the parallel piped in 3 dimensions
 > Definition: Determinant of a 3 by 3 matrix
-> $$
- \begin{bmatrix}
+> 
+$$
+\det \begin{bmatrix}
 a_{1} & a_{2} & a_{3} \\
 b_{1} & b_{2} & b_{3} \\
 c_{1} & c_{2} & c_{3}
@@ -53,7 +55,8 @@ $$
 	- The linear transformation collapses the space to a lower dimension
 	- The matrix is rank-deficient
 > Property: 
-> $$
+> 
+$$
 \det A  = \det A^{T}
 $$
 

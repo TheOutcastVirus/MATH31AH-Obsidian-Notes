@@ -18,7 +18,8 @@ tags:
 - Another example of basis [[Vectors]] include $\vec{w}_{1}=\begin{bmatrix}1 \\ 1\end{bmatrix}$ and $\vec{w}_{2}=\begin{bmatrix}1 \\ -1\end{bmatrix}$
 > Proposition: Say we have a [[Matrices|matrix]] $M \in M_{n}(\mathbb{R})$, where $M_{n}(\mathbb{R})$ is the set of all $n \times n$ matrices with real numbers (square matrices). If $M$ is non-singular, meaning that is square with a non-zero determinant ($\det(M) \neq 0$), the set column vectors and the set of row vectors of $M$ are a basis of $\mathbb{R}^n$. 
 
-> Theorem: Let $B$ be a basis of $\mathbb{R}^n$, $B =\{ \vec{v}_{1}, \dots, \vec{v}_{n} \}$. Then, any vector $\vec{w} \in \mathbb{R}^n$ can be uniquely (no other form) represented as $$
+> Theorem: Let $B$ be a basis of $\mathbb{R}^n$, $B =\{ \vec{v}_{1}, \dots, \vec{v}_{n} \}$. Then, any vector $\vec{w} \in \mathbb{R}^n$ can be uniquely (no other form) represented as 
+$$
 \vec{w} = r_{1}\vec{v}_{1}+\dots+ r_{n}\vec{v}_{n}, r_{i} \in \mathbb{R}
 $$
 - Basis are how we have vector representations in the first place
@@ -29,6 +30,6 @@ $$
 > $r_{1}-m_{1}=0, r_{2}-m_{2}=0, \dots, r_{n}-m_{n}=0$. Therefore $r_{i}=m_{i}$ for all $1 \leq i\leq n$ thus the representation is unique. 
 
 > **Definition: Dimensions of a subspace** Let $S \subset \mathbb{R}^n$ be a linear subspace of $\mathbb{R}^n$. The dimensions of S is the number of elements in any basis of $S$. 
-> Example: Let $S := \{  (x,y,0), y,y \in \mathbb{R} \} \subset \mathbb{R}^3$. See that $\{ (1,0,0), (0,1,0) \}$ is a basis of $S$. So, $\text{dim}S = 2$
+> Example: Let $S := \{  (x,y,0), x,y \in \mathbb{R} \} \subset \mathbb{R}^3$. See that $\{ (1,0,0), (0,1,0) \}$ is a basis of $S$. So, $\text{dim}S = 2$
 - Observations: Any two basis of $S$ has the same number of elements
 	- Any linearly independent subset of $\mathbb{R}^n$ can have at most $n$ elements

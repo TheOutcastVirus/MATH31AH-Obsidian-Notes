@@ -33,7 +33,8 @@ tags:
 > This gives us the *characteristic polynomial* for $T$. The solutions to this polynomial are the eigenvalues of $T$.
 
 > **Definition: Characteristic polynomial**. For some transformation $A$, the characteristic polynomial is:
-> $$
+> 
+$$
 \det(A-xI)=0
 $$
 > The values of $x$ that solve this equation are the eigenvalues ($\lambda_{1},\lambda_{2},\dots$) of $A$.
@@ -70,7 +71,7 @@ $$
 > Example: Find the eigenvectors for $A$ in the previous problem.
 > Our eigenvector is $v\in \mathbb{R}^3 \setminus \{ 0 \}$,where $Av=1\cdot v$, as $\lambda_{1}=1$. This implies that $Av=v$. We have to solve $(A-\lambda_{1}I)v=0\in \mathbb{R}^3$. 
 > $\begin{bmatrix}0 & -7 & -1 \\ 0 & 1 & -2 \\ 0 & 0 & -4\end{bmatrix}\begin{bmatrix}v_{1} \\ v_{2} \\ v_{3}\end{bmatrix}=\begin{bmatrix}0 \\ 0 \\ 0\end{bmatrix}$
-> This gives us that $-7v_{2}-v_{3}=0$, $-v_{2}-2v_{3}=0$, $-4v_{3}=0$
+> This gives us that $-7v_{2}-v_{3}=0$, $v_{2}-2v_{3}=0$, $-4v_{3}=0$
 > $v_{1}$ is a free variable, so we can say that $v=\begin{bmatrix}1 \\ 0 \\ 0\end{bmatrix}$ is an example of an eigenvector of $\lambda_{1}=1$.
 
 

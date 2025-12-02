@@ -9,7 +9,8 @@ tags:
   - MATH31AH
 ---
 >**Proposition: Cauchy Schwarz Inequality.** Let $v,w \in \mathbb{R}^n$. Then, 
-> $$
+> 
+$$
 \lvert v \cdot w \rvert \leq \lVert v \rVert \lVert w \rVert 
 $$
 >With the equality holding only when $v =\lambda w$, for some $\lambda \in \mathbb{R}$
@@ -31,7 +32,7 @@ $$
 > If $\{ v,w \}$ is [[Linear independence|linearly independent]], then $||v-tw||^{2} \geq 0$. This forces the discriminant of the polynomial $P(t)$  to be negative, meaning it has no solutions. 
 > $(-2\langle v,w \rangle)^{2}-4 ||w||^{2}||v||^{2}$
 > $=4|\langle v,w \rangle|^{2} - 4 ||v||^{2}||w||^{2} <0$
-> $\implies |\langle v,w \rangle| < ||v||\cdot|w||$
+> $\implies |\langle v,w \rangle| < ||v||\cdot||w||$
 > When $v$ is a scalar multiple of $w$, meaning that $v= \lambda w$ for some $\lambda \in \mathbb{R}$, then $P(t)=0$ has only one root: $\lambda$. This means the discriminant of $P$ is zero, so:
 > $|\langle v,w \rangle|^{2} = ||v||^{2}\cdot||w||^{2}$
 > $\implies |\langle v,w \rangle| = ||v||\cdot||w||$
