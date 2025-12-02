@@ -56,9 +56,9 @@ tags:
 > Proof of rank nullity: Note that $T(\mathbb{R}^n)$ is a linear subspace of the codomain $\mathbb{R}^m$. Thus, there exists $\{ w_{1},\dots,w_{l} \} \subset \mathbb{R}^n$ such that $\{ T(w_{1}),\dots,T(w_{l}) \}$, which is a basis of $T(\mathbb{R}^n)$.
 > Now, we shall show that $\{ w_{1},\dots,w_{l} \} \subset \mathbb{R}^n$ is [[Linear independence|linearly independent]]. Suppose $c_{1}\vec{w}_{1}+\dots+c_{l}\vec{w}_{l} = \vec{0} \in R^n$. This implies that $T(c_{1}\vec{w}_{1}+\dots+c_{l}\vec{w}_{l}) = \vec{0} \in \mathbb{R}^n$. We can apply the linear property such that $c_{1}T(\vec{w}_{1})+\dots+c_{l}T(\vec{w}_{l}) = \vec{0} \in \mathbb{R}^n$. Therefore, $c_{1}=c_{2}=\dots=c_{l}=0 \in \mathbb{R}$
 > Since $\ker (T) \subset \mathbb{R}^n$ is a subspace, say, $\{ v_{1},\dots,v_{k} \} \subset \mathbb{R}^n$ is a basis of $\ker(T)$. 
-> Claim: $\{ v_{1},\dots,v_{k} \}  or \{ w_{1},\dots,w_{l} \}=B$ is a basis of $\mathbb{R}^n$. We know this because the union of two linearly independent sets is linearly independent from our homework. 
-> Pick $\vec{u} \in \mathbb{R}^n$. Either $T(\vec{u} = \vec{0}) \implies \vec{u} \in \ker(T) \implies \vec{u} \in L(B)$, or $T(\vec{u})(\neq \vec{0}) \in T(\mathbb{R}^n)$
-> This implies that $T(\vec{u}) = \alpha_{1}T(\vec{w}_{1})+\dots+\alpha_{l}T(w\vec{w}_{l})$, given $\alpha_{i} \in \mathbb{R}$.
+> Claim: $\{ v_{1},\dots,v_{k} \} \cup \{ w_{1},\dots,w_{l} \}=B$ is a basis of $\mathbb{R}^n$. We know this because the union of two linearly independent sets is linearly independent from our homework. 
+> Pick $\vec{u} \in \mathbb{R}^n$. Either $T(\vec{u}) = \vec{0} \implies \vec{u} \in \ker(T) \implies \vec{u} \in L(B)$, or $T(\vec{u})(\neq \vec{0}) \in T(\mathbb{R}^n)$
+> This implies that $T(\vec{u}) = \alpha_{1}T(\vec{w}_{1})+\dots+\alpha_{l}T(\vec{w}_{l})$, given $\alpha_{i} \in \mathbb{R}$.
 > This implies that $T(\vec{u}) = T(\alpha_{1}\vec{w}_{1} + \dots \alpha_{l}\vec{w}_{l})$
 > which implies that $T(\alpha_{1}\vec{w}+\dots+\alpha_{l}\vec{w}_{l}) - T(\vec{u}) = \vec{0}\in \mathbb{R}^m$
 > Which implies that $T(\alpha_{1}\vec{w}+\dots+\alpha_{l}\vec{w}_{l} - \vec{u}) = \vec{0} \in \mathbb{R}^m$

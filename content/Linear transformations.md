@@ -8,8 +8,8 @@ Links:
 tags:
   - MATH31AH
 ---
-- Linear transformations are also know as *linear maps*
-- When are working with vector spaces, linear maps are a fundamental tool to study them
+- Linear transformations are also known as *linear maps*
+- When we are working with vector spaces, linear maps are a fundamental tool to study them
 	- Many natural operations such as rotation, scaling, etc. are linear maps
 > **Definition: Linear map**. A map $T : \mathbb{R}^n \to \mathbb{R}^m$ is called a linear map (or a linear transformation) if:
 > $T(\alpha \vec{v} + \beta \vec{w}) = \alpha T(\vec{v}) + \beta T (\vec{w})$
@@ -36,7 +36,7 @@ tags:
 - Say that we have some transform $T: \mathbb{R}^n \to \mathbb{R}^m$, 
 	- Suppose that $n > m$
 		- $(x_{1},x_{2},\dots,x_{m},x_{m+1},\dots,x_{n}) \to (y_{1},y_{2},\dots,y_{m})$
-	- We can define a map $(x_{1},x_{2},\dots,x_{m},x_{m+1},\dots,x_{n}) \to (x_{1}x_{2},\dots x_{m})$
+	- We can define a map $(x_{1},x_{2},\dots,x_{m},x_{m+1},\dots,x_{n}) \to (x_{1},x_{2},\dots, x_{m})$
 	- This is called a projection map
 - These are the only non-degenerate maps for when the dimensions do not match
 	- A degenerate transformation is one that loses information when scaling down in dimension
@@ -68,13 +68,13 @@ tags:
 - We want to prove that the compositions of linear maps are linear
 	- Suppose that we have $T: \mathbb{R}^n \to \mathbb{R}^m$
 		- Say that we have a second map $S: \mathbb{R}^m \to \mathbb{R}^l$
-		- $S \cdot T: \mathbb{R}^n -. \mathbb{R}^l$ is also linear 
+		- $S \cdot T: \mathbb{R}^n \to \mathbb{R}^l$ is also linear 
 	- We can compose linear maps by multiplying them 
 		- $\begin{bmatrix} S \circ T\end{bmatrix} = [S] [T]$
 >Proof: Prove the above. 
 > $=S \circ T (\alpha \vec{u} + \beta \vec{v})$
 > $=S(\alpha T(\vec{u})+\beta T(\vec{v}))$
-> $=\alpha S(T(u\vec{u}))+\beta S(T(\vec{v}))$
+> $=\alpha S(T(\vec{u}))+\beta S(T(\vec{v}))$
 > Where $\alpha,\beta \in \mathbb{R}, \vec{u},\vec{v} \in \mathbb{R}^n$
 > Pick $\vec{u} = u_{1} \vec{e}_{1} + \dots u_{n}\vec{e}_{n}$
 > $S(T(\vec{u})) = S(u_{1}T(\vec{e}_{1})+\dots+u_{n}T(\vec{e}_{n}))$
@@ -103,7 +103,7 @@ tags:
 > $\begin{bmatrix}\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta\end{bmatrix} =  \begin{bmatrix}\theta\end{bmatrix}$
 - Suppose we have  map $T: \mathbb{R}^n \to \mathbb{R}^m$ that is linear
 	- Suppose that it has basis $B_{n}$ which is the [[basis]] of $\mathbb{R}^n$
-		- $B_{n} = \{ \vec{v}_{1},\dots,\vec{_{n}} \}$
+		- $B_{n} = \{ \vec{v}_{1},\dots,\vec{v}_{n} \}$
 	- Say that there is a basis $C_{m}$ which is the basis of $\mathbb{R}^m$
 		- $C_{m} = \{ \vec{w}_{1},..,\vec{w}_{n} \}$
 	- Pick some element $\vec{u} \in \mathbb{R}^n, T(\vec{u}) \in \mathbb{R}^m$
@@ -114,7 +114,7 @@ tags:
 	- To summarize: $T: \mathbb{R}^n \to \mathbb{R}^m$, where $\mathbb{R}^n$ has basis $B_{n}$, and $\mathbb{R}^m$ has basis $C_{m}$
 		- $T(\vec{u}) =  \begin{bmatrix}[T(\vec{v}_{1})]_{C_{m}} & [T(\vec{v}_{n})]_{C_{m}}\end{bmatrix} \begin{bmatrix}\vec{u}\end{bmatrix}_{B_{n}}$
 > **Definition: Linear isomorphism.** A linear map $T:\mathbb{R}^n \to \mathbb{R}^n$ is called [[Matrix inverses|invertible]] or a linear isomorphism if there exists another linear map $S: \mathbb{R}^n \to \mathbb{R}^n$ such that $S \circ T = T \circ S: Id : \mathbb{R}^n \to \mathbb{R}^n$
-> Corollary: Let $T:\mathbb{R}^n \to \mathbb{R}^n$m be a linear isomorphism. Then, $[T^{-1}] = [T]^{-1}$
+> Corollary: Let $T:\mathbb{R}^n \to \mathbb{R}^n$ be a linear isomorphism. Then, $[T^{-1}] = [T]^{-1}$
 > Remark: $Id: \mathbb{R}^n \to \mathbb{R}^n, \vec{u} \mapsto \vec{u}$. This transform is the same as the identity matrix
 
 ### Midterm review
@@ -129,7 +129,7 @@ tags:
 
 > Suppose that there exists $x \in \mathbb{R}\setminus \{ 0 \}$ such that $T(x) \neq 0$. What is $\ker T$?
 > We know that $\ker T = \{ \vec{0} \}$. 
-> Let, $x_{0}\neq_{0}$ be such that $T(x_{0})\neq_{0}$. 
+> Let $x_{0}\neq 0$ be such that $T(x_{0})\neq 0$. 
 > Pick $x \in \mathbb{R}. T(x) =T\left( \frac{x}{x_{0}} \cdot x_{0} \right)$
 > This implies that for all $x \in \mathbb{R} \setminus \{ 0 \}$ that this $=\frac{x}{x_{0}}T(x_{0})$ and that $T(x) \neq 0$
 

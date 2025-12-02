@@ -49,15 +49,15 @@ $$
 > $x^{2}-5x-2 =0$
 > The solutions to this equation are the eigenvalues of $A$. In this case, there are no real solutions, so the eigenvalues are complex.
 
-> Remark: 
+> Remark:
 > Let $\lambda_{0} \in \mathbb{C}$ be an eigenvalue of $T$ and $v \in \mathbb{R}^n \setminus \{ 0 \}$ is an eigenvector associated with $\lambda_{0}$.
-> Then, $T(v)=\lambda v$
+> Then, $T(v)=\lambda_{0} v$
 > $\implies T(\alpha v)=\alpha T(v)$
 > $=\alpha\lambda_{0}v$
 > $=\lambda_{0}(\alpha v)$
-- This remark that any eigenvalue $\lambda_{0}$ will have an infinite number of associated eigenvectors
+- This remark shows that any eigenvalue $\lambda_{0}$ will have an infinite number of associated eigenvectors
 	- This is because due to linearity, we can multiply the vector by any real number $\alpha$
-> If $v$ is an eigenvector of $\lambda_{0}$, them $\alpha v$ is also an eigenvector of $\lambda_{0}$, for all $\alpha \in \mathbb{R} \setminus \{ 0 \}$ 
+> If $v$ is an eigenvector of $\lambda_{0}$, then $\alpha v$ is also an eigenvector of $\lambda_{0}$, for all $\alpha \in \mathbb{R} \setminus \{ 0 \}$ 
 > Suppose $\{ v_{1},v_{2} \}$ is [[Linear independence|linearly independent]] of eigenvectors of $\lambda_{0}$. 
 > Then all elements of $L(\{ v_{1},v_{2} \}) \setminus\{ 0 \}$ is an eigenvector of $\lambda_{0}$.
 > Proof:

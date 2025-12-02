@@ -18,8 +18,8 @@ tags:
 > Let $S \subset \mathbb{R}^n$ be non-empty. Define, S-perp as $S^{\perp} := \{ v \in \mathbb{R}^n : \langle v,s \rangle = 0, s \in S\}$
 - This can be show to be a linear subspace.
 	- This means that means that any linear combination of orthogonal vectors will also be orthogonal
-> Proposition: 
-> Let $S (\neq_{0})\subset \mathbb{R}^n$. Then, $S^{\perp}$ is a [[Linear subspaces|linear subspace]] of $\mathbb{R}^n$. 
+> Proposition:
+> Let $S \neq \emptyset \subset \mathbb{R}^n$. Then, $S^{\perp}$ is a [[Linear subspaces|linear subspace]] of $\mathbb{R}^n$. 
 > Proof: 
 > Pick $v,w \in S^{\perp}, \alpha,\beta \in \mathbb{R}$. 
 > Then, $\langle v,s \rangle = 0$ and $\langle w,s \rangle = 0$, for all $s \in S$
@@ -35,7 +35,7 @@ tags:
 > Let $S(\neq 0) \subset \mathbb{R}^n$ and $S^{\perp}$ be the collection of all vectors orthogonal to the elements of $S$. Then the [[Linear span|linear span]] of the set is the same as set: $(L(S))^{\perp} = S^{\perp}$.
 
 > Pythagorean identity:
-> let $v_{1},v_{2},\dots,v_{k} \in \mathbb{R}^{\infty}$ be such that $\langle v_{i}, v_{j}\rangle = 0$, whenever $i\neq j$.
+> let $v_{1},v_{2},\dots,v_{k} \in \mathbb{R}^{n}$ be such that $\langle v_{i}, v_{j}\rangle = 0$, whenever $i\neq j$.
 > Then, $\lVert v_{1}+\dots+v_{k} \rVert^{2} = \lVert v_{1} \rVert^{2}+\lVert v_{2} \rVert^{2} +\dots+\lVert v_{k} \rVert^{2}$
 > Proof:
 > Base case: $\lVert v_{1} \rVert^{2} = \lVert v_{1} \rVert^{2}$

@@ -11,7 +11,7 @@ tags:
 - Suppose we have equations:
 	- $2x+y+3z=1$
 	- $x-y=1$
-	- $2x=z = 1$
+	- $2x-z = 1$
 - When you have a system where every equation is equal to zero on the right, it is called a *homogeneous system*
 	- When you have non-zero values of constants on the side, it is called an *inhomogeneous system*
 	- If you inhomogeneous system has a solution, it has as many solutions as its corresponding homogenous system
@@ -20,8 +20,8 @@ tags:
 - We can represent the problem as $\begin{bmatrix}\end{bmatrix}$
 > Example: Solving a system of linear equations
 > $2x+y+3z=1$
- >$x-y=1$
-> $2x=z = 1$
+> $x-y=1$
+> $2x-z = 1$
 > We can write this as a matrix as $\begin{bmatrix}2 & 1 & 3 \\ 1 & -1 & 0 \\  2 & 0 & 1\end{bmatrix}\begin{bmatrix}x \\ y \\ z\end{bmatrix} = \begin{bmatrix}1 \\ 1 \\ 1\end{bmatrix}$. Eventually, we want to get to $\begin{bmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}\begin{bmatrix}x \\ y \\ z\end{bmatrix} = \begin{bmatrix}- \\ - \\ -\end{bmatrix}$.
 > Alternatively, we can write this as an augmented matrix: $\begin{bmatrix}2 & 1 & 3 & | & 1 \\ 1 & -1 & 0 & | & 1 \\ 2 & 0 & 1 & | & 1\end{bmatrix}$
 > We want to perform row operations on this to get to our desired state. We can interchange rows, multiply rows by non-zero scalars, and subtract and add rows from others. We can show that these operations are also [[Linear transformations|linear isomorphisms]].

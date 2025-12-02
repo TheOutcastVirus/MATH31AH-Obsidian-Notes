@@ -9,9 +9,9 @@ tags:
   - MATH31AH
 ---
 > Definition: Echelon form. A [[Matrices|matrix]] is in echelon form if:
-> - in every row the first non-zero elements is 1, called a pivotal 1
+> - in every row the first non-zero element is 1, called a pivotal 1
 > - the pivotal 1 of a lower row is always to the right of the pivot of a higher row
-> - every column that contains a pivotal 1 all other entries are zero. 
+> - every column that contains a pivotal 1 has all other entries as zero
 > - any rows consisting entirely of zeros must be at the bottom
 > Example of a matrix in echelon form looks like this. The elements with an asterisk are called pivots.
 > 
