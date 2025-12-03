@@ -49,7 +49,7 @@ $$
 > $x^{2}-5x-2 =0$
 > The solutions to this equation are the eigenvalues of $A$. In this case, there are no real solutions, so the eigenvalues are complex.
 
-> Remark:
+> Remark: 
 > Let $\lambda_{0} \in \mathbb{C}$ be an eigenvalue of $T$ and $v \in \mathbb{R}^n \setminus \{ 0 \}$ is an eigenvector associated with $\lambda_{0}$.
 > Then, $T(v)=\lambda_{0} v$
 > $\implies T(\alpha v)=\alpha T(v)$
