@@ -1,5 +1,5 @@
 ## Introduction
-Hey there, I'm Vikram Kommera. I have been taking notes using [Obsidian](https://obsidian.md/) so far this quarter. I have types my notes in LaTeX using the [LaTeX Suite](https://github.com/artisticat1/obsidian-latex-suite) plugin for Obsidian, which allows me to use shortcuts while typing to keep up during lecture. 
+Hey there, I'm Vikram Kommera. I have been taking notes using [Obsidian](https://obsidian.md/) so far this quarter. I have typed my notes in LaTeX using the [LaTeX Suite](https://github.com/artisticat1/obsidian-latex-suite) plugin for Obsidian, which allows me to use shortcuts while typing to keep up during lecture. 
 
 I have taken notes on most proofs and examples during lecture. There may be typos and conceptual mistakes, but I have tried my best to keep this accurate. I hope you can find this useful to study for our final. 
 
